@@ -5,3 +5,16 @@
 // 各値段の計算を変数に代入し、
 // その合計を$sumと言う変数に代入して
 // 「○○○円です。」という形で出力してください。
+
+$chocolatePrice = 100;
+$candyPrice = 50;
+$chocolateCount = 1;
+$candyCount = 3;
+
+$chocolateTotal = $chocolatePrice * $chocolateCount;
+$candyTotal = $candyPrice * $candyCount;
+$sum = $chocolateTotal + $candyTotal;
+
+echo $sum . "円です。";
+
+?>
